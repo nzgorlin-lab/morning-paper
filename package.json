@@ -1,0 +1,15 @@
+{
+  "name": "morning-paper",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "node --env-file=.env generate.js",
+    "serve": "node --env-file=.env server.js",
+    "start": "npm run generate && npm run serve"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
